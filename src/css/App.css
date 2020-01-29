@@ -1,0 +1,21 @@
+:root {
+  --mainDark: #343a40;
+  --mainGrey: rgba(109, 109, 109);
+  --mainLightGrey: rgba(172, 172, 172);
+  --mainWhite: #f3f3f3;
+  --mainBlue: #007bff;
+}
+
+body {
+  font-family: "Oswald", sans-serif !important;
+  background-color: rgb(233, 234, 237) !important;
+  color: var(--mainDark);
+}
+
+.navbar-toggler:focus {
+  outline: none;
+}
+
+.navbar-toggler {
+  border: none;
+}
